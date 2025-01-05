@@ -20,7 +20,7 @@ function App() {
   };
   const handleCopy = () => {
     navigator.clipboard.writeText(
-      `https://api-encurtador-de-link.onrender.com/${data.shortcode}`
+      `https://encurtador-de-url-do-thaiago.netlify.app/${data.shortcode}`
     );
   };
 
