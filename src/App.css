@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-logo {
+  max-width: 300px;
+  cursor: pointer;
+}
+
+.mainMenu {
+  cursor: pointer;
+  align-self: flex-end;
+  justify-self: flex-end;
+  margin-right: 3rem;
+  /* margin-bottom: 30px;; */
+  margin-top: -90px;
+  /* max-width: ; */
+}
+
+.mainMenu img {
+  max-width: 40px;
+}
+
+.mainHero {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mainForm input {
+  padding: 20px;
+  border: 0.5px solid #45d5be;
+  border-radius: 4px;
+  background: #f3fffe;
+  width: 341px;
+  border-right: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.mainForm input::placeholder {
+  color: #45d5be;
+  font-size: 10pt;
+  border: 0;
+}
+
+.mainForm button {
+  padding: 20px 40px;
+  border: 0.5px solid #45d5be;
+  border-radius: 4px;
+  background: #45d5be;
+  text-transform: uppercase;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainInfo {
+  /* background: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.editForm {
+  border: 0;
+}
+
+.menuIco {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.message-url-generated {
+  margin-left: 8px;
+  margin-top: 16px;
+  font-family: "Inter";
+  font-size: 10pt;
+}
+
+.copy-url {
+  /* heigh: 129 57.6 */
+
+  width: 129px;
+  height: 57.6px;
+  /* position: relative; */
+}
+
+.copy-ico {
+  height: 30px;
+  /* margin-top: 15px; */
+  /* width: 900px; */
+  /* position: absolute; */
+  /* right: 0; */
+  /* position: absolute; */
+}
+
+.generate-box {
+  display: flex;
+}
+
+@media screen and (max-width: 516px) {
+  .original-url {
+    /* background: blue; */
+    width: 300px !important;
+    border: 0.5px solid #45d5be;
+  }
+  .generate-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .mainForm input {
+    padding: 20px;
+    border: 0.5px solid #45d5be;
+    border-radius: 4px;
+    background: #f3fffe;
+    width: 341px;
+  }
+
+  .mainForm p {
+    text-align: center;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,50 @@
+.boxMenu {
+  background: #45d5be;
+  /* align-self: flex-end; */
+  right: 0;
+  height: 120vh;
+  width: 300px;
+  z-index: 1;
+  /* top: 0; */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20vh;
+}
+
+.menuList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menuList li {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.menu-selected {
+  font-weight: bold;
+}
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.box-shadow {
+  background: #f7f7f7;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

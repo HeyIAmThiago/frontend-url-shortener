@@ -1,0 +1,46 @@
+.editForm input {
+  /* background: blue; */
+  width: 470px;
+  border: 0.5px solid #45d5be;
+}
+
+.formGerarEdit {
+  margin-top: 30px;
+  /* background: blue; */
+  width: 100%;
+}
+
+.novo-encurtador-url {
+  border: 10px solid gray;
+  /* margin-top: 10px; */
+  border-right: 1px solid #45d5be !important;
+  margin-bottom: 15px;
+}
+
+.message-success-edit {
+  margin-left: 8px;
+  margin-top: 16px;
+  font-family: "Inter";
+  color: #45d5be;
+  font-size: 10pt;
+}
+
+.novo-encurtador {
+  width: 100%;
+}
+
+.error-message {
+  margin-left: 8px;
+  margin-top: 16px;
+  font-family: "Inter";
+  font-size: 10pt;
+}
+
+@media screen and (max-width: 516px) {
+  .editForm input,
+  .novo-encurtador-url {
+    /* background: blue; */
+    width: 300px !important;
+    border: 0.5px solid #45d5be;
+  }
+}

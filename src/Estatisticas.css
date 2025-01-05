@@ -1,0 +1,16 @@
+.message-error-stats {
+  color: red;
+}
+
+.info {
+  margin-bottom: -20px;
+}
+.info p {
+  width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.url-statistics {
+  border-right: 1px solid #45d5be !important;
+}
