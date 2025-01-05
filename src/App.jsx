@@ -19,7 +19,9 @@ function App() {
     setVisibleMenu(true);
   };
   const handleCopy = () => {
-    navigator.clipboard.writeText(`http://localhost:5173/${data.shortcode}`);
+    navigator.clipboard.writeText(
+      `https://api-encurtador-de-link.onrender.com/${data.shortcode}`
+    );
   };
 
   const handleGerar = () => {
